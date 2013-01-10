@@ -11,10 +11,10 @@ Gem::Specification.new do |gem|
   gem.name          = "celluloid-zmq"
   gem.version       = Celluloid::ZMQ::VERSION
 
-  gem.add_dependency "celluloid",    "~> 0.12.0"
-  gem.add_dependency "celluloid-io", "~> 0.12.0"
-  gem.add_dependency "ffi"
-  gem.add_dependency "ffi-rzmq"
+  gem.add_dependency "celluloid",    "0.12.0"
+  gem.add_dependency "celluloid-io", "0.12.0"
+  gem.add_dependency "ffi", "1.1.5"
+  gem.add_dependency "ffi-rzmq", "0.9.6"
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec"
